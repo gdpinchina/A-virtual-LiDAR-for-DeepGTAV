@@ -1,0 +1,24 @@
+﻿  LiDAR.cpp
+LiDAR.cpp(50): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+LiDAR.cpp(93): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+LiDAR.cpp(116): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+LiDAR.cpp(116): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
+LiDAR.cpp(120): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+LiDAR.cpp(120): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
+LiDAR.cpp(210): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+LiDAR.cpp(211): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+LiDAR.cpp(240): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+LiDAR.cpp(270): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+LiDAR.cpp(273): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+LiDAR.cpp(250): warning C4101: 'quaterion': unreferenced local variable
+  main.cpp
+  Scenario.cpp
+  script.cpp
+  tinyxml2.cpp
+  utils.cpp
+  Generating code
+  614 of 618 functions (99.4%) were compiled, the rest were copied from previous compilation.
+    273 functions were new in current compilation
+    0 functions had inline decision re-evaluated but remain unchanged
+  Finished generating code
+  LIDAR_GTAV.vcxproj -> E:\gitrepo\A-virtual-LiDAR-for-DeepGTAV\LIDAR_GTAV\bin\Debug\LIDAR_GTAV.asi
