@@ -242,8 +242,8 @@ void LiDAR::GenerateSinglePoint(float phi, float theta, float* p)
 #endif //DEBUG_LOG
 
 #ifdef DEBUG_GRAPHICS_LIDAR
-	//GRAPHICS::DRAW_BOX(target.x - 0.05, target.y - 0.05, target.z - 0.05, target.x + 0.05, target.y + 0.05, target.z + 0.05, 255, 0, 0, 255);
-	GRAPHICS::DRAW_BOX(endCoord.x - 0.05, endCoord.y - 0.05, endCoord.z - 0.05, endCoord.x + 0.05, endCoord.y + 0.05, endCoord.z + 0.05, 0, 255, 0, 255);
+	//GRAPHICS::DRAW_BOX(endCoord.x - 0.05, endCoord.y - 0.05, endCoord.z - 0.05, endCoord.x + 0.05, endCoord.y + 0.05, endCoord.z + 0.05, 0, 255, 0, 255);
+	GRAPHICS::DRAW_LINE(endCoord.x - 0.03, endCoord.y - 0.03, endCoord.z - 0.03, endCoord.x + 0.03, endCoord.y + 0.03, endCoord.z + 0.03,  255,255,255, 255);
 #endif //DEBUG_GRAPHICS_LIDAR
 }
 
