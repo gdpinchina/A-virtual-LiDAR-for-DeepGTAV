@@ -12,20 +12,26 @@ public:
 	~LiDAR();
 
 public:
-	//Note: polar-coordinate definition, not navigation-coordinate definition
+
+	//Note: polar-coordinate definition below: 
 	//1. Horizontal angle ranges from 0 to 360 degree.
 	//	[horizRiLimit, horizLeLimit), anti-clock, namely from rightside to leftside.
-	//	horizRiLimit:[180бу, 360бу), horizLeLimit:[0бу, 180бу). 
-	//	For example, shown as defaults, right:[270бу, 360бу), left:[0бу,90бу).
+	//	horizRiLimit:[180, 360), horizLeLimit:[0, 180). 
+	//	For example, shown as defaults in API Init2DLiDAR_SmplNum, right:[270, 360), left:[0, 90).
+	//
 	//2. Vertical angle ranges from 0 to 180 degree.
 	//	[vertiUnLimit, vertiUpLimit), namely from underside to upside. 
-	//	vertiUnLimit:[180бу,90бу), vertiUpLimit:[90бу, 0бу).
-	//	For example, shown as defaults, downside:[270бу, 0бу), left:[0бу,90бу).
+	//	vertiUnLimit:[180, 90), vertiUpLimit:[90, 0).
+	//	For example, shown as defaults in API Init3DLiDAR_SmplNum, downside:[135, 90), upside:[90, 45).
+	//
 	//3. One single frame contains :
 	//	2D: HorizSmplNum ranges. 
 	//	3D: VertiSmplNum * horizSmplNum ranges. 
+	//
 	//4. By defaults:
 	//	Position: The LiDAR device is set to the same position of camera.
+
+	
 	void Init2DLiDAR_SmplNum(float maxRange = 100.0, int horizSmplNum = 180, float horizLeLimit = 90.0, float horizRiLimit = 270.0);
 
 	void Init3DLiDAR_SmplNum(float maxRange = 100.0, int horizSmplNum = 180, float horizLeLimit = 90.0, float horizRiLimit = 270.0,
