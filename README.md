@@ -1,8 +1,8 @@
 # A-virtual-LiDAR-for-DeepGTAV  
 
 ## Preview:
-### Graphical debug with Draw_box(good looking but more computation)
 ![image](https://github.com/gdpinchina/A-virtual-LiDAR-for-DeepGTAV/blob/master/20180215130213.png)
+
 
 
 ## Usage:
